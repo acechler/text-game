@@ -6,6 +6,23 @@
     <title>Text-Game</title>
 </head>
 <body>
+    <form action="/submit-your-form" method="post">
+        <!-- Text input for name -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
     
+        <!-- Radio buttons for choosing an option -->
+        <p>Please select your favorite color:</p>
+        <input type="radio" id="colorRed" name="favoriteColor" value="Red">
+        <label for="colorRed">Red</label><br>
+        <input type="radio" id="colorBlue" name="favoriteColor" value="Blue" checked>
+        <label for="colorBlue">Blue</label><br>
+        <input type="radio" id="colorGreen" name="favoriteColor" value="Green">
+        <label for="colorGreen">Green</label><br><br>
+    
+        <!-- Submit and Reset buttons -->
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
 </body>
 </html>
